@@ -6,8 +6,8 @@ url = "https://weatherbit-v1-mashape.p.rapidapi.com/forecast/3hourly"
 querystring = {"lat":"19.033049","lon":"73.029663"}
 
 headers = {
-	"X-RapidAPI-Key": "f2b1123709msh2a86b29c16fae58p10b040jsn7d22ba3230b8",
-	"X-RapidAPI-Host": "weatherbit-v1-mashape.p.rapidapi.com"
+	"X-RapidAPI-Key": :"YOURKEY",
+	"X-RapidAPI-Host": "YOUR-ID"
 }
 
 response = requests.request("GET", url, headers=headers, params=querystring).json()
